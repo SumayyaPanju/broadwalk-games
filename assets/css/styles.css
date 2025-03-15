@@ -66,6 +66,18 @@ h2{
 
 /* Media Queries */
 
+/* Extra small devices (575px and less */
+
+@media screen and (max-width: 575px) {
+
+}
+
+/* Small devices (576px and more) */
+
+@media screen and (min-width: 576px) {
+
+}
+
 /* Medium devices (768px and more) */
 
 @media screen and (min-width: 768px) {
