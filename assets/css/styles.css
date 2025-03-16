@@ -73,6 +73,7 @@ h2{
     color: white;
 }
 
+
 /* Header */
 #header .lead {
     font-family: var(--secondary-font);
@@ -152,6 +153,12 @@ h2{
 
 #contact .table-dark *{
     background-color: transparent;
+}
+
+/* Reserve */
+
+#reserve .submit{
+    text-align-last: end;
 }
 
 /* Sticky footer */
