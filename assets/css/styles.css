@@ -64,6 +64,11 @@ h2{
     margin-bottom:1.5rem;
 }
 
+/* Games */
+
+#fav-games .card-margin, #new-games .card-margin{
+    margin-bottom:1.5rem;
+}
 /* Contact Us */
 
 #contact{
@@ -125,6 +130,10 @@ h2{
     #services .card-body{
         min-height: 194px;
     }
+    /* Make all game cards of the same height for consistency */
+    #fav-games .card-body{
+        min-height: 311px;
+    }
 }
 
 /* Large devices (992px and more) */
@@ -152,6 +161,10 @@ h2{
     /* Make all service cards of the same height for consistency */
     #services .card-body{
         min-height: 198px;
+    }
+    /* Make all game cards of the same height for consistency */
+    #fav-games .card-body{
+        min-height: 314px;
     }
 }
 
