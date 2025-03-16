@@ -47,6 +47,32 @@ h2{
     width: 30px;
 }
 
+/* Buttons */
+
+.custom-buttons-filled{
+    background-color: var(--highlight-color);
+    border: 2px solid var(--highlight-color);
+    color: white;
+}
+
+.custom-buttons-filled:hover{
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    color: white;
+}
+
+.custom-buttons-outline{
+    border: 2px solid var(--highlight-color);
+    color: var(--highlight-color);
+    padding: 7px 25px;
+    margin-bottom: 1rem;
+}
+
+.custom-buttons-outline:hover{
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* Header */
 #header .lead {
     font-family: var(--secondary-font);
@@ -64,6 +90,25 @@ h2{
     margin-bottom:1.5rem;
 }
 
+/* Events */
+
+#join-events .custom-buttons-outline{
+    max-width: max-content;
+}
+
+#join-events .discount{
+    background-color: var(--highlight-color);
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    max-width: max-content;
+    justify-self: anchor-center;
+}
+
+.discount p{
+    margin-bottom: 0;
+}
 /* Games */
 
 #fav-games .card-margin, #new-games .card-margin{
