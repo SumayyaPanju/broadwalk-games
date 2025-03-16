@@ -109,6 +109,11 @@ h2{
     background-color: transparent;
 }
 
+/* Sticky footer */
+
+html, body {
+    height: 100%;
+  }
 /* Media Queries */
 
 /* Extra small devices (575px and less */
